@@ -39,7 +39,7 @@ class Mage extends Character {
         if (fireballReady) {
             dmg += 10;
             System.out.println("Fireball hits! Extra 10 damage and applies burn.");
-            target.hp -= 5; // burn damage
+            target.hp -= 5; 
             fireballReady = false;
         }
         if (target.defending) dmg *= 0.5;
